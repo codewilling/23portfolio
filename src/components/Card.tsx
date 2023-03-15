@@ -4,10 +4,11 @@ type Project = {
     name: string;
     link: string;
     image: string;
+    skills: string[];
   };
 };
 export const Card = ({ project }: Project) => {
-  const { name, link, image } = project;
+  const { name, link } = project;
   return (
     <div className="card-container">
       <a href={link} className="card-link">

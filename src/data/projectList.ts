@@ -34,5 +34,23 @@ export const Projects = [
         ],
         
         image: tents
+    },
+    {   
+        name: 'React Tic-Tac-Toe',
+        link:'https://genuine-sorbet-cff636.netlify.app',
+        skills: [
+            'React', 'HTML', 'CSS', 'JavaScript', 'Responsive Design'
+        ],
+        
+        image: tents
+    },
+    {   
+        name: 'Angular Heroes',
+        link:'https://codewilling-heroes.netlify.app',
+        skills: [
+            'React', 'HTML', 'CSS', 'JavaScript', 'Responsive Design'
+        ],
+        
+        image: tents
     }
 ]
