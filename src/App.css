@@ -38,7 +38,6 @@ nav {
   text-decoration: none;
   color: whitesmoke;
   letter-spacing: 0.3rem;
-  /* font-weight: bold; */
   font-size: 1.5rem;
 }
 
@@ -53,9 +52,6 @@ nav {
   background-color: whitesmoke;
   margin: 5px;
   transition: all 0.3s ease;
-}
-#chatIcon {
-  font-size: 2.5rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -74,30 +70,31 @@ nav {
   body {
     overflow-x: hidden;
   }
-
+  
   .nav-links {
+    
     position: absolute;
     right: 0px;
     height: 100%;
     top: 8vh;
     background-color: steelblue;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     width: 50%;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
+    animation: navLinkFade 1s;
   }
-
+  
   .nav-links li {
     opacity: 0;
   }
-
+  
   .burger {
     display: block;
   }
 }
-
 .nav-active {
   transform: translateX(-30%);
 }
@@ -125,6 +122,10 @@ nav {
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }
+#chatIcon {
+  font-size: 2.5rem;
+}
+
 
 .data-input {
   margin: 0 auto;
@@ -154,7 +155,7 @@ video {
   position: fixed;
   opacity: 0.5;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   object-fit: cover;
   z-index: -3;
 }
@@ -172,7 +173,7 @@ video {
   display: flex;
   justify-content: space-between;
   width: 90%;
-  /* height: 90vh; */
+  height: 100%;
   margin: 0 auto;
   flex-direction: column;
 }
