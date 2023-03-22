@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 // import { useSpring, N from 'react-spring'
 import  InPic from '../assets/In-White-34px-R.png'
 import githubPic from '../assets/GitHub-Mark-Light-32px.png'
 export const Navbar = () => {
+const [menuTogle, setMenuToggle] = useState(false)
+
     return (
         <nav >
             <div className="logo">
@@ -22,7 +24,7 @@ export const Navbar = () => {
                         alt="codewilling's github" /></a>
                 </li>
             </ul>
-            <div className="burger" >
+            <div className="burger" onClick={menuToggle => setMenuToggle(!menuToggle)}>
                 <div className='line1'></div>
                 <div className='line2'></div>
                 <div className='line3'></div>
