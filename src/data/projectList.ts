@@ -36,8 +36,8 @@ export const Projects = [
         image: tents
     },
     {   
-        name: 'React Tic-Tac-Toe',
-        link:'https://genuine-sorbet-cff636.netlify.app',
+        name: 'Civic Tech Index',
+        link:'http://civictechindex.org/organizations',
         skills: [
             'React', 'HTML', 'CSS', 'JavaScript', 'Responsive Design'
         ],
@@ -52,5 +52,14 @@ export const Projects = [
         ],
         
         image: tents
-    }
+    },
+    {   
+        name: 'React 18 Tic-Tac-Toe',
+        link:'https://genuine-sorbet-cff636.netlify.app',
+        skills: [
+            'React', 'HTML', 'CSS', 'JavaScript', 'Responsive Design'
+        ],
+        
+        image: tents
+    },
 ]
