@@ -28,7 +28,7 @@ export const Projects = [
     },
     {   
         name: 'React Timer',
-        link:'https://codewilling-react-timer.herokuapp.com/',
+        link:'https://timer-theta-seven.vercel.app/',
         skills: [
             'React', 'HTML', 'CSS', 'JavaScript', 'Responsive Design'
         ],
