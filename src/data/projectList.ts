@@ -2,7 +2,7 @@ import * as tents from "../assets/Tents.png";
 export const Projects = [
     {   
         name: 'AI Image Generator',
-        link:'https://ai-image-generator-jet-gamma.vercel.app/',
+        link:'https://ai-image-generator-production-f3b4.up.railway.app/',
         skills: [
             'Node', 'Express', 'MongoDB', 'HTML', 'CSS', 'JavaScript', 'Responsive Design'
         ], 
